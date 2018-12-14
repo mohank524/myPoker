@@ -20,9 +20,13 @@ and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/poker](https://hexdocs.pm/poker).
 
 $ git clone https://github.com/mohank524/myPoker.git
+
 $ cd myPoker/
+
 $ mix deps.get
+
 $ iex -S mix
+
 ```
 Poker.main(Black: ~w(2H 3D 5S 9C KD), White: ~w(2D 3H 5C 9S KH))
 "Tie"
