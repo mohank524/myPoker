@@ -20,4 +20,4 @@ Poker.main(Black: ~w(2H 3D 5S 9C KD), White: ~w(2C 3H 4S 8C AH))
 ```
 To run the test case.
 
-$ mix run
+$ mix test
