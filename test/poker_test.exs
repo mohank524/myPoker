@@ -6,7 +6,7 @@ defmodule PokerTest do
   defstruct header: "", data: ""
 
   test "Test cases for poker " do
-      [header | data] = Path.absname("input.csv")
+      [header | data] = Path.absname("testcase.csv")
       |> File.stream!
       |> Enum.to_list
       |> Enum.map(&String.trim/1)

@@ -18,3 +18,6 @@ Poker.main(Black: ~w(2H 4S 4C 3D 4H), White: ~w(2S 8S AS QS 3S))
 Poker.main(Black: ~w(2H 3D 5S 9C KD), White: ~w(2C 3H 4S 8C AH))
 "White wins - high card: Ace"
 ```
+To run the test case.
+
+$ mix run
