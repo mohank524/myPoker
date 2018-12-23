@@ -3,6 +3,10 @@ defmodule Poker do
   @suits ~w(H D S C)
   @order ~w(straight_flush four_of_a_kind full_house flush straight three_of_a_kind two_pairs pair high_card)a
 
+  def hello() do
+    :world
+  end
+
   def main(Black: black_input, White: white_input) do
     {:ok, black_cards } = validate_card(black_input)
     {:ok, white_cards } = validate_card(white_input)
